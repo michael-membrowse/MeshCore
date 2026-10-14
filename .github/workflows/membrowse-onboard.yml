@@ -55,6 +55,7 @@ jobs:
           ld: ${{ matrix.ld }}
           map_file: ${{ matrix.map_file }}
           linker_vars: ${{ matrix.linker_vars }}
+          skip_sections: ${{ matrix.skip_sections }}
           binary_search: 'true'
           api_key: ${{ secrets.MEMBROWSE_API_KEY }}
           api_url: ${{ vars.MEMBROWSE_API_URL }}
