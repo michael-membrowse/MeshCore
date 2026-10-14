@@ -1,0 +1,119 @@
+[
+  {
+    "target_name": "Heltec_v3_companion_radio_ble",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/Heltec_v3_companion_radio_ble/firmware.map\" pio run -e Heltec_v3_companion_radio_ble",
+    "elf": ".pio/build/Heltec_v3_companion_radio_ble/firmware.elf",
+    "ld": "/home/runner/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/ld/memory.ld",
+    "map_file": ".pio/build/Heltec_v3_companion_radio_ble/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "Heltec_v3_repeater",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/Heltec_v3_repeater/firmware.map\" pio run -e Heltec_v3_repeater",
+    "elf": ".pio/build/Heltec_v3_repeater/firmware.elf",
+    "ld": "/home/runner/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/ld/memory.ld",
+    "map_file": ".pio/build/Heltec_v3_repeater/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "Heltec_v3_room_server",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/Heltec_v3_room_server/firmware.map\" pio run -e Heltec_v3_room_server",
+    "elf": ".pio/build/Heltec_v3_room_server/firmware.elf",
+    "ld": "/home/runner/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/ld/memory.ld",
+    "map_file": ".pio/build/Heltec_v3_room_server/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "RAK_4631_companion_radio_ble",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/RAK_4631_companion_radio_ble/firmware.map\" pio run -e RAK_4631_companion_radio_ble",
+    "elf": ".pio/build/RAK_4631_companion_radio_ble/firmware.elf",
+    "ld": "boards/nrf52840_s140_v6_extrafs.ld",
+    "map_file": ".pio/build/RAK_4631_companion_radio_ble/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "RAK_4631_companion_radio_ethernet",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/RAK_4631_companion_radio_ethernet/firmware.map\" pio run -e RAK_4631_companion_radio_ethernet",
+    "elf": ".pio/build/RAK_4631_companion_radio_ethernet/firmware.elf",
+    "ld": "boards/nrf52840_s140_v6.ld",
+    "map_file": ".pio/build/RAK_4631_companion_radio_ethernet/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "RAK_4631_repeater",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/RAK_4631_repeater/firmware.map\" pio run -e RAK_4631_repeater",
+    "elf": ".pio/build/RAK_4631_repeater/firmware.elf",
+    "ld": "boards/nrf52840_s140_v6.ld",
+    "map_file": ".pio/build/RAK_4631_repeater/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "RAK_4631_repeater_ethernet",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/RAK_4631_repeater_ethernet/firmware.map\" pio run -e RAK_4631_repeater_ethernet",
+    "elf": ".pio/build/RAK_4631_repeater_ethernet/firmware.elf",
+    "ld": "boards/nrf52840_s140_v6.ld",
+    "map_file": ".pio/build/RAK_4631_repeater_ethernet/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "RAK_4631_room_server",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/RAK_4631_room_server/firmware.map\" pio run -e RAK_4631_room_server",
+    "elf": ".pio/build/RAK_4631_room_server/firmware.elf",
+    "ld": "boards/nrf52840_s140_v6.ld",
+    "map_file": ".pio/build/RAK_4631_room_server/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "RAK_4631_room_server_ethernet",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/RAK_4631_room_server_ethernet/firmware.map\" pio run -e RAK_4631_room_server_ethernet",
+    "elf": ".pio/build/RAK_4631_room_server_ethernet/firmware.elf",
+    "ld": "boards/nrf52840_s140_v6.ld",
+    "map_file": ".pio/build/RAK_4631_room_server_ethernet/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "PicoW_repeater",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/PicoW_repeater/firmware.map\" pio run -e PicoW_repeater",
+    "elf": ".pio/build/PicoW_repeater/firmware.elf",
+    "ld": ".pio/build/PicoW_repeater/memmap_default.ld",
+    "map_file": ".pio/build/PicoW_repeater/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "LilyGo_Tlora_C6_repeater_",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/LilyGo_Tlora_C6_repeater_/firmware.map\" pio run -e LilyGo_Tlora_C6_repeater_",
+    "elf": ".pio/build/LilyGo_Tlora_C6_repeater_/firmware.elf",
+    "ld": "/home/runner/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/ld/memory.ld",
+    "map_file": ".pio/build/LilyGo_Tlora_C6_repeater_/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "wio_wm1110_repeater",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/wio_wm1110_repeater/firmware.map\" pio run -e wio_wm1110_repeater",
+    "elf": ".pio/build/wio_wm1110_repeater/firmware.elf",
+    "ld": "boards/nrf52840_s140_v7.ld",
+    "map_file": ".pio/build/wio_wm1110_repeater/firmware.map",
+    "linker_vars": ""
+  },
+  {
+    "target_name": "Tbeam_SX1276_repeater",
+    "setup_cmd": "pip install platformio==6.1.19",
+    "build_cmd": "PLATFORMIO_BUILD_FLAGS=\"-Wl,-Map=.pio/build/Tbeam_SX1276_repeater/firmware.map\" pio run -e Tbeam_SX1276_repeater",
+    "elf": ".pio/build/Tbeam_SX1276_repeater/firmware.elf",
+    "ld": "/home/runner/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/ld/memory.ld",
+    "map_file": ".pio/build/Tbeam_SX1276_repeater/firmware.map",
+    "linker_vars": ""
+  }
+]
